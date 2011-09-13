@@ -13,6 +13,7 @@ namespace SerialDataReader
 {
     public partial class Form1 : Form
     {
+        SerialPort _serialPort;
         public Form1()
         {
             InitializeComponent();
@@ -52,9 +53,24 @@ namespace SerialDataReader
             string port = portsBox.Text;
 
 
-            SerialPort _serialPort = new SerialPort(port, baud, pariAct, data, stopAct);
+            _serialPort = new SerialPort(port, baud, pariAct, data, stopAct);
             _serialPort.Handshake = Handshake.None;
-
+            _serialPort.DataReceived += new SerialDataReceivedEventHandler(sp_DataReceived);
+            _serialPort.Open(); 
         }
+
+        void sp_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {            
+            string data = _serialPort.ReadLine();
+            // Invokes the delegate on the UI thread, and sends the data that was received to the invoked method.
+            // ---- The "si_DataReceived" method will be executed on the UI thread which allows populating of the textbox.
+            this.BeginInvoke(new SetTextDeleg(si_DataReceived), new object[] { data });
+        }
+
+        private void si_DataReceived(string data) 
+        { 
+            textBox1.Text = data.Trim(); 
+        }
+
     }
 }
