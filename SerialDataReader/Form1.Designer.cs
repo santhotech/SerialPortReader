@@ -42,6 +42,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 48);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(455, 246);
             this.textBox1.TabIndex = 0;
             // 
@@ -70,7 +71,7 @@
             this.baudTxt.Name = "baudTxt";
             this.baudTxt.Size = new System.Drawing.Size(63, 20);
             this.baudTxt.TabIndex = 4;
-            this.baudTxt.Text = "BAUD";
+            this.baudTxt.Text = "115200";
             // 
             // stopTxt
             // 
@@ -78,7 +79,7 @@
             this.stopTxt.Name = "stopTxt";
             this.stopTxt.Size = new System.Drawing.Size(52, 20);
             this.stopTxt.TabIndex = 5;
-            this.stopTxt.Text = "STOP";
+            this.stopTxt.Text = "One";
             // 
             // pariTxt
             // 
@@ -86,7 +87,7 @@
             this.pariTxt.Name = "pariTxt";
             this.pariTxt.Size = new System.Drawing.Size(52, 20);
             this.pariTxt.TabIndex = 5;
-            this.pariTxt.Text = "PARITY";
+            this.pariTxt.Text = "None";
             // 
             // dataTxt
             // 
@@ -94,7 +95,7 @@
             this.dataTxt.Name = "dataTxt";
             this.dataTxt.Size = new System.Drawing.Size(72, 20);
             this.dataTxt.TabIndex = 6;
-            this.dataTxt.Text = "DATA";
+            this.dataTxt.Text = "8";
             // 
             // Form1
             // 
@@ -109,7 +110,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Serial Data Reader";
+            this.Text = "Serial Data Reader v 0.5.5";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
