@@ -1,0 +1,9 @@
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\bin\Debug\SerialDataReader.exe
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\bin\Debug\SerialDataReader.pdb
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\SerialDataReader.Form1.resources
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\SerialDataReader.Properties.Resources.resources
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\SerialDataReader.exe
+C:\Users\santhosh\Documents\Visual Studio 2010\Projects\SerialDataReader\SerialDataReader\obj\x86\Debug\SerialDataReader.pdb
